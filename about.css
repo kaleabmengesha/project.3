@@ -1,0 +1,462 @@
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    cursor: default;
+    text-decoration: none;
+    color: rgba(216, 216, 216, 0.801);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+body{
+
+    background-color: #3c3c3c;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    cursor: default;
+
+    
+
+    
+    .main{
+        background-color: rgb(0,104,181);
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        border-radius: 1px;
+        margin: 0px;
+        overflow: hidden;
+        flex-direction: row;
+        box-shadow: 0px 0px 7px rgb(0, 0, 0);
+        transition: 0.4s;
+
+    }
+
+
+    .left{
+        background-color: rgb(6, 56, 96);
+        width: 300px;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+            
+
+            
+
+    .leftbot{
+        background-image: linear-gradient(rgb(4, 47, 81), rgb(0, 43, 77) );
+        width: 300px;
+        height: 34.1vh;
+        box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.377);
+    }
+
+    .leftce{
+        background-image: linear-gradient(rgb(3, 54, 94), rgb(4, 58, 99));
+        width: 300px;
+        height: 100vh;
+        box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.377);
+        flex-direction: column;
+        display: flex;
+        overflow: hidden;
+
+    }
+
+
+    .imgd{
+        background-color: rgb(0,104,181);
+        width: 300px;
+        height: 100px;
+        flex-direction: row;
+        display: flex;
+        overflow: hidden;
+        
+    }
+
+    .aaa{
+        margin: 40px 0px 20px 40px;
+        font-size: large;
+        color: rgb(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .h11{
+        font-size: x-large;
+        margin: 20px 20px 10px 20px;
+        color: rgb(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .h1{
+        font-size: medium;
+        margin: 10px 10px 10px 10px;
+        color: rgb(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .h2{
+        font-size: 19px;
+        margin: 10px 17px 10px 17px;
+        color: rgb(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .mes{
+        margin: 40px 0px 0px 100px;
+        position: relative;
+        display: inline-block;
+        width: fit-content;
+        opacity: 0.5;
+        background-color: rgba(82, 82, 82, 0.219);
+        border-radius: 5px;
+    }
+
+    .botmain{
+        justify-content: center;
+        margin: 100px 10% 20% auto;
+        position: relative;
+        display: flex;
+        width: fit-content;
+        background-color: rgba(82, 82, 82, 0);
+        border-radius: 5px;
+        flex-direction: row;
+    }
+
+    .bot1{
+        margin: 00px 20px 0px 20px;
+        position: relative;
+        display: flex;
+        width: 70px;
+        opacity: 0.5;
+        background-image: url(src/face.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+
+    }
+
+    .bot2{
+        margin: 00px 20px 0px 20px;
+        position: relative;
+        display: flex;
+        width: 70px;
+        opacity: 0.5;
+        background-image: url(src/x.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+
+    }
+
+    .bot3{
+        margin: 00px 20px 0px 20px;
+        position: relative;
+        display: flex;
+        width: 70px;
+        opacity: 0.5;
+        background-image: url(src/dis.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+
+    }
+
+    .bot4{
+        margin: 00px 20px 0px 20px;
+        position: relative;
+        display: flex;
+        width: 70px;
+        opacity: 0.5;
+        background-image: url(src/red.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+
+    }
+
+    .bot5{
+        margin: 00px 20px 0px 20px;
+        position: relative;
+        display: flex;
+        width: 70px;
+        opacity: 0.5;
+        background-image: url(src/you.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+
+    }
+
+    #bo:hover{
+        transform: scale(1.07);
+        opacity: 1;
+    }
+
+    #bo{
+        transition: 0.2s;
+        height: 70px;
+        border-radius: 15px;
+    }
+
+    .p1{
+        color: rgb(236, 236, 236);
+        margin-top: 40px;
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+                       
+        
+    .main:hover{
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    }
+
+    .center{
+        background-color: rgb(0, 62, 108);
+        width: 100%;
+        height: 100vh;
+    }
+
+    .cenup{
+        background-color: rgb(0, 62, 108);
+        width: 100%;
+        height: 74.6vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        
+    }
+
+    .cenbot{
+        background-color: rgb(0, 46, 83);
+        width: 100%;
+        height: 30vh;
+        justify-content: end;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .dec{
+        background-color: rgb(0, 79, 123);
+        width: 100px;
+        height: 100px;
+        margin-top: 74.6vh;
+        box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.377);
+
+    }
+
+    .dec2{
+        background-color: rgb(113, 116, 124);
+        width: 30px;
+        height: 30px;
+        margin-top: 100px;
+        box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.377);
+
+    }
+
+    .declast{
+        background-color: rgb(0, 46, 83);
+        width: 25%;
+        height: 100vh;
+        display: flex;
+    }
+
+    .but{
+        align-items: center;
+        background-color: rgba(5, 113, 201, 0);
+        width: 100%;
+        height: 50px;
+        display: flex;
+        margin-top: 2px;
+        transition: 0.3s;
+    }
+
+    .but a{
+        align-items: center;
+        background-color: rgba(5, 113, 201, 0);
+        width: 100%;
+        height: 50px;
+        display: flex;
+        margin-top: 2px;
+        transition: 0.3s;
+    }
+
+    .but:hover{
+        background-color: rgba(194, 194, 194, 0.274);
+    }
+
+    .but:active{
+        background-color: rgba(194, 194, 194, 0.644);
+    }
+
+    .point{
+        background-color: rgba(0, 174, 269, 0);
+        width: 18px;
+        height: 4px;
+        border-radius: 0px;
+        margin: 0px 8px 0px 8px;
+    }
+
+    
+    
+
+    
+    
+    #a{
+                margin-top: 100px;
+            }
+
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .sub{
+        background-color: rgba(255, 255, 255, 0);
+        width: 50px;
+        height: 100vh;
+        margin-left: 8px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #intel{
+        background-image: url(src/34.png);
+        background-position: center;
+        background-size: cover;
+        transition: 0.23s;
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.568);
+
+
+    }
+
+    #about{
+        background-image: url(src/94.png);
+        background-position: center;
+        background-size: cover;
+        transition: 0.23s;
+        transform: scale(1.13);
+        box-shadow: 4px 4px 5px rgb(0, 0, 0);
+    }
+
+    #direct{
+        background-image: url(src/dev.jpg);
+        background-position: center;
+        background-size: cover;
+        transition: 0.23s;
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.568);
+
+    }
+
+    #intel:hover{
+        background-image: url(src/34.png);
+        background-position: center;
+        background-size: cover;
+        transform: scale(1.13);
+
+    }
+
+    #about:hover{
+        background-position: center;
+        background-size: cover;
+        transform: scale(1.13);
+        box-shadow: 0px 0px 17px rgb(94, 93, 93);
+
+    }
+
+    #direct:hover{
+        background-position: center;
+        background-size: cover;
+        transform: scale(1.13);
+
+    }
+
+
+    .subs{
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 8px;
+        height: 37px;
+        margin: 23px 5px 0px 5px;
+    }
+
+    .subs a{
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 8px;
+        width: 37px;
+        height: 37px;
+        margin: 23px 5px 0px 5px;
+    }
+
+    #hr{
+        width: 32px;
+        height: 0px;
+        opacity: 0.4;
+    }
+
+    #hr2{
+        width: 100%;
+        height: 0px;
+        opacity: 0.4;
+    }
+
+    .fixed{
+        position: fixed;
+        align-self: flex-end;
+        margin: 0px 0px 8px 0px;
+        background-color: rgba(0, 0, 0, 0.103);
+        border-radius: 3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: smaller;
+        color: rgba(255, 255, 255, 0.123);
+        font-weight: bold;
+    }
+
+    .gif{
+        translate: 10px 30px;
+        width: 90px;
+        border-radius: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
